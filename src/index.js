@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles/index.css';
-import Home from './screens/home/Home';
+import './styles/app.global.css'
+import Home from './screens/home';
 import * as serviceWorker from './utils/serviceWorker';
 
 ReactDOM.render(<Home />, document.getElementById('root'));
