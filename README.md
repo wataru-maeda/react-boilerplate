@@ -8,25 +8,25 @@
 
 ## Libraries in the boilerplate
 
-* HTTP client
+#### HTTP client
 - [axios](https://github.com/axios/axios)
 
-* Style
+#### Style
 - [radium](https://github.com/FormidableLabs/radium)
 - [bootstrap](http://getbootstrap.com/)
 - [reactstrap](https://reactstrap.github.io/)
 
-* Date/Time
+#### Date/Time
 - [moment](https://momentjs.com/)
 
-* Peformance
+#### Peformance
 - [react-loadable](https://github.com/jamiebuilds/react-loadable)
 
-* Navigation
+#### Navigation
 - [react-dom](https://github.com/facebook/react/blob/master/packages/react-dom/README.md)
 - [react-router-dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)
 
-* Store
+#### Store
 - [redux](https://redux.js.org/basics/usagewithreact)
 - [react-redux](https://github.com/reduxjs/react-redux)
 - [redux-logger](https://github.com/LogRocket/redux-logger)
