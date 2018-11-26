@@ -8,10 +8,10 @@ export default class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={images.logo} className="App-logo" alt="logo" />
+          <h5 style={{ fontSize: '2em' }}>React Boilerplate</h5>
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            Edit <code>src/Home.js</code> and save to reload.
           </p>
-          <h5>Heeeeeloooooooo!</h5>
           <a
             className="App-link"
             href="https://reactjs.org"
