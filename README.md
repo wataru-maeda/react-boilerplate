@@ -1,5 +1,8 @@
 # React-boilerplate
 
+<img src="https://github.com/WataruMaeda/react-boilerplate/blob/master/src/assets/images/demo.png" />
+
+
 ## How to Use
 
 1. Rename to your project name
