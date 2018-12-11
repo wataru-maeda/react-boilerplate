@@ -14,6 +14,9 @@
 #### HTTP client
 - [axios](https://github.com/axios/axios)
 
+#### Document header manager
+- [react-helmet](https://github.com/nfl/react-helmet)
+
 #### Style
 - [radium](https://github.com/FormidableLabs/radium)
 - [bootstrap](http://getbootstrap.com/)
@@ -22,7 +25,7 @@
 #### Date/Time
 - [moment](https://momentjs.com/)
 
-#### Peformance
+#### Performance
 - [react-loadable](https://github.com/jamiebuilds/react-loadable)
 
 #### Navigation
