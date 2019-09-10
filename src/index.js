@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet'
 import { render } from 'react-dom'
 import { StyleRoot } from 'radium'
 import { Provider } from 'react-redux'
+import { StripeProvider } from 'react-stripe-elements'
 import store from './redux/store'
 
 import Router from './router'
@@ -26,7 +27,9 @@ const App = () => (
         ]}
       />
       <StyleRoot>
-        <Router />
+        <StripeProvider apiKey="pk_test_xxxxxxxxxxx">
+          <Router />
+        </StripeProvider>
       </StyleRoot>
     </Fragment>
   </Provider>
