@@ -25,6 +25,13 @@ class Form extends Component {
       type: 'card',
       owner: {
         name: 'Jenny Rosen',
+        address: {
+          line1: 'Nollendorfstraße 27',
+          city: 'Berlin',
+          postal_code: '10777',
+          country: 'DE',
+        },
+        email: 'jenny.rosen@example.com',
       },
     })
     console.log('[##] source', source)
