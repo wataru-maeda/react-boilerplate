@@ -27,7 +27,7 @@ const App = () => (
         ]}
       />
       <StyleRoot>
-        <StripeProvider apiKey="pk_test_xxxxxxxxxxx">
+        <StripeProvider apiKey="pk_test_xxxxxxxxxx">
           <Router />
         </StripeProvider>
       </StyleRoot>

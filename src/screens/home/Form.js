@@ -1,5 +1,14 @@
 import React, { Component } from 'react'
-import { injectStripe, CardElement } from 'react-stripe-elements'
+import {
+  injectStripe,
+  // CardElement,
+  CardNumberElement,
+  CardExpiryElement,
+  CardCVCElement,
+  IbanElement,
+  PaymentRequestButtonElement,
+  IdealBankElement,
+} from 'react-stripe-elements'
 
 const styles = {
   root: {
@@ -24,7 +33,10 @@ class Form extends Component {
   render() {
     return (
       <div style={styles.root}>
-        <CardElement style={{ base: { fontSize: '18px' } }} hidePostalCode />
+        {/* <CardElement style={{ base: { fontSize: '18px' } }} hidePostalCode /> */}
+        <CardNumberElement />
+        <CardExpiryElement />
+        <CardCVCElement />
         <br />
         <button className="btn btn-primary" onClick={this.onSubmit}>
           Submit
