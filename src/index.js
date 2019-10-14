@@ -1,44 +1,12 @@
-import React, { Fragment } from 'react'
-import { Helmet } from 'react-helmet'
-import { render } from 'react-dom'
-import { StyleRoot } from 'radium'
-import { Provider } from 'react-redux'
-import { StripeProvider } from 'react-stripe-elements'
-import store from './redux/store'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import * as serviceWorker from './serviceWorker';
 
-import Router from './router'
-import * as serviceWorker from './utils/serviceWorker';
-
-const App = () => (
-  <Provider store={store}>
-    <Fragment>
-      <Helmet
-        titleTemplate="%s | React Boilerplate"
-        meta={[
-          { charset: 'utf-8' },
-          {
-            'http-equiv': 'X-UA-Compatible',
-            content: 'IE=edge',
-          },
-          {
-            name: 'viewport',
-            content: 'width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0',
-          },
-        ]}
-      />
-      <StyleRoot>
-        <StripeProvider apiKey="pk_test_xxxxxxxxx">
-          <Router />
-        </StripeProvider>
-      </StyleRoot>
-    </Fragment>
-  </Provider>
-)
-
-render(<App />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: http://bit.ly/CRA-PWA
-
+// Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
