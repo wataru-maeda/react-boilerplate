@@ -1,55 +1,26 @@
-import React, { Component } from 'react'
+import React from 'react';
+import { images } from '../../theme'
+import './home.css';
 
-export default class Home extends Component {
-  render() {
-    return (
-      <div>
-        
-      </div>
-    )
-  }
+function Home() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={images.logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
+  );
 }
 
-
-// import React, { Component } from 'react'
-// import PropsType from 'prop-types'
-// import { styler, theme } from '../../styles'
-// import Connector from '../../utils/connector'
-
-// const styles = styler({
-//   root: {
-//     display: 'flex',
-//     flexDirection: 'column',
-//   },
-// })
-
-// class XXX extends Component {
-//   state = {
-//   }
-
-//   render() {
-//     return (
-//       <div className={styles.root}>
-//       </div>
-//     )
-//   }
-// }
-
-// const ConnectedXXX = props => (
-//   <Connector>
-//     {
-//       ({ actions, state: { app: { me } } }) => (
-//         <XXX
-//           me={me}
-//           actions={actions.app}
-//           {...props}
-//         />
-//       )
-//     }
-//   </Connector>
-// )
-
-// XXX.propTypes = {}
-// XXX.defaultProps = {}
-
-// export default ConnectedXXX
+export default Home;
