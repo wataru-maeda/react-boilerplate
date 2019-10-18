@@ -1,43 +1,33 @@
-# React-boilerplate
 
-<img src="https://github.com/WataruMaeda/react-boilerplate/blob/master/src/assets/images/demo.png" />
+<img src='https://github.com/WataruMaeda/react-boilerplate/blob/master/readme.assets/banner.svg' width='400'> 
 
+<img src='https://github.com/WataruMaeda/react-boilerplate/blob/master/readme.assets/ss1.png' width='47%'> <img src='https://github.com/WataruMaeda/react-boilerplate/blob/master/readme.assets/ss2.png' width='47%'> <img src='https://github.com/WataruMaeda/react-boilerplate/blob/master/readme.assets/ss3.png' width='47%'> <img src='https://github.com/WataruMaeda/react-boilerplate/blob/master/readme.assets/ss4.png' width='47%'> 
+
+## About
+
+We spend a large amount of time to setup a project; changing file structure, installing libraries, create reusable components and so on. The purpose of using the project is to minimize the redundant effort to setup a project from scratch. In the boilerplate, it contains only commonly-used libraries and the all setup done for you. 
+
+## What's included
+
+- react-fontawesome
+- bootstrap
+- emotion
+- react-dom
+- react-loadable
+- react-redux
+- react-router-dom
+- react-select
+- reactstrap
+- redux
+- redux-logger
+- redux-thunk
 
 ## How to Use
 
-1. Rename to your project name
+1. Download zip
 2. `yarn install` or `npm install`
 3. `yarn start` or `npm start`
 
-## Libraries in the boilerplate
+## Licence
 
-#### HTTP client
-- [axios](https://github.com/axios/axios)
-
-#### Document header manager
-- [react-helmet](https://github.com/nfl/react-helmet)
-
-#### Style
-- [radium](https://github.com/FormidableLabs/radium)
-- [bootstrap](http://getbootstrap.com/)
-- [reactstrap](https://reactstrap.github.io/)
-
-#### Date/Time
-- [moment](https://momentjs.com/)
-
-#### Performance
-- [react-loadable](https://github.com/jamiebuilds/react-loadable)
-
-#### Navigation
-- [react-dom](https://github.com/facebook/react/blob/master/packages/react-dom/README.md)
-- [react-router-dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)
-
-#### Store
-- [redux](https://redux.js.org/basics/usagewithreact)
-- [react-redux](https://github.com/reduxjs/react-redux)
-- [redux-logger](https://github.com/LogRocket/redux-logger)
-- [redux-promise-middleware](https://github.com/pburtchaell/redux-promise-middleware)
-- [redux-thunk](https://github.com/reduxjs/redux-thunk)
-
-The starter kit is based on *facebook/create-react-app*
-Please visit the [repo](https://github.com/facebook/create-react-app) for more details.
+This project is available under the MIT license. 
