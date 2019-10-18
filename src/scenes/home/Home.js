@@ -16,14 +16,14 @@ const styles = styler({
   },
   title: {
     color: 'white',
-    fontFamily: fonts.hiragino.normal,
+    fontFamily: fonts.aleo.normal,
     marginTop: 40,
     fontSize: 40,
     textAlign: 'center',
   },
   description: {
     color: colors.lightLightGray,
-    fontFamily: fonts.hiragino.normal,
+    fontFamily: fonts.aleo.normal,
     marginTop: 20,
     fontSize: 18,
     textAlign: 'center',

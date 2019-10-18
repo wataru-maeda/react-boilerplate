@@ -1,18 +1,15 @@
 
 @font-face {
-	font-family: 'Hiragino-kaku-gothic-w3';
-	src: url(../theme/fonts/hiragino-kaku-gothic-pro-w3.otf);
+	font-family: 'Aleo-Regular';
+	src: url(../theme/fonts/Aleo-Regular.otf);
 }
 
 @font-face {
-	font-family: 'Hiragino-kaku-gothic-w6';
-	src: url(../theme/fonts/hiragino-kaku-gothic-pron-w6.otf);
+	font-family: 'Aleo-Bold';
+	src: url(../theme/fonts/Aleo-Bold.otf);
 }
 
 :root {
-  --yellow: #ffb600;  
-  --green: #00c3a2;
-  --cyan: #00c8e0;
   --purple: #7467d1;
   --shockingPurple: #8200ff;
   --lightPurple: #9388db;
@@ -34,7 +31,7 @@
 }
 
 body {
-  font-family: 'Hiragino-kaku-gothic-w3';
+  font-family: 'Aleo-Regular';
   color: var(--blackPurple);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -42,7 +39,7 @@ body {
 }
 
 h1, h2, h3, h4, b {
-  font-family: 'Hiragino-kaku-gothic-w6';
+  font-family: 'Aleo-Bold';
   color: var(--blackPurple);
   padding: 0;
   margin: 0;

@@ -1,15 +1,20 @@
-import hiragino_normal from './hiragino-kaku-gothic-pro-w3.otf'
-import hiragino_bold from './hiragino-kaku-gothic-pron-w6.otf'
+import aleo_bold from './Aleo-Bold.otf'
+import aleo_italic from './Aleo-Italic.otf'
+import aleo_regular from './Aleo-Regular.otf'
 
 export default {
-  hiragino: {
+  aleo: {
     normal: {
-      uri: hiragino_normal,
-      name: 'Hiragino-kaku-gothic-w3',
+      uri: aleo_regular,
+      name: 'Aleo_Regular',
+    },
+    italic: {
+      uri: aleo_italic,
+      name: 'Aleo_Italic',
     },
     bold: {
-      uri: hiragino_bold,
-      name: 'Hiragino-kaku-gothic-w6',
+      uri: aleo_bold,
+      name: 'Aleo-Bold',
     },
   },
 }
