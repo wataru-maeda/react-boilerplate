@@ -57,7 +57,9 @@ const SentEmailPopup = ({
           className={styles.img}
         />
         <h2 className={styles.title}>Password reset email sent</h2>
-        <p className={styles.desc}>{`Email sent to ${email}. Follow the directions in the email to reset your password.`}</p>
+        <p className={styles.desc}>
+          Email sent to <a href={`mailto:${email}`}>{email}</a>. Follow the directions in the email to reset your password.
+        </p>
         <Button
           label="OK"
           className={`btn-purple-gradation ${styles.btn}`}

@@ -135,7 +135,7 @@ class Signup extends Component {
               isLoading={isLoading}
             />
             <Button
-              label="Go to Login"
+              label="Login"
               className={`btn-purple-outline ${styles.btn}`}
               onClick={() => history.push('/login')}
               isLoading={isLoading}

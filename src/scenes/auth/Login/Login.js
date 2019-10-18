@@ -87,13 +87,10 @@ class Login extends Component {
 
     // login
     this.setState({ isLoading: true })
-    const { actions, history } = this.props
+    const { actions } = this.props
     const { email, password } = this.state
-    actions.login(email, password).then(({ emailVerified }) => {
+    actions.login(email, password).then(() => {
       this.setState({ isLoading: false })
-      emailVerified
-        ? history.push(path.auth.userInfo)
-        : history.push({ pathname: path.auth.confirmEmail, state: { email } })
     }).catch(err => {
       this.setState({ resErr: err.message, isLoading: false })
     })
@@ -143,9 +140,9 @@ class Login extends Component {
               isLoading={isLoading}
             />
             <Button
-              label="Go to Signup"
+              label="Signup"
               className={`btn-purple-outline ${styles.btn}`}
-              onClick={() => history.push('/signup')}
+              onClick={() => history.push(path.signup)}
               isLoading={isLoading}
             />
           </div>

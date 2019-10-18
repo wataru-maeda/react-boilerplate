@@ -27,14 +27,12 @@ const modal = ({
   toggleModal,
   children,
   size,
-  isCenter,
 }) => (
   <Modal
     size={size}
     isOpen={isOpen}
     centered={centered}
     toggle={toggleModal}
-    centered={isCenter}
   > 
   <div className={styles.closeContainer}>
     <aside />
@@ -54,7 +52,6 @@ modal.propTypes = {
   toggleModal: PropTypes.func,
   children: PropTypes.any,
   size: PropTypes.any,
-  isCenter: PropTypes.bool,
 }
 
 modal.defaultProps = {
@@ -63,7 +60,6 @@ modal.defaultProps = {
   toggleModal: () => {},
   children: null,
   size: 'lg',
-  isCenter: false,
 }
 
 export default modal

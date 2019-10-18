@@ -28,7 +28,7 @@ const styles = styler({
   },
 })
 
-class TabController extends Component {
+class TabMenus extends Component {
   constructor(props) {
     super(props)
     const { children } = this.props
@@ -67,11 +67,11 @@ class TabController extends Component {
   }
 }
 
-const ConnectedTabController = props => (
+const ConnectedTabMenus = props => (
   <Connector>
     {
       ({ actions, state: { app: { me } } }) => (
-        <TabController
+        <TabMenus
           me={me}
           actions={actions.app}
           {...props}
@@ -81,14 +81,14 @@ const ConnectedTabController = props => (
   </Connector>
 )
 
-TabController.propTypes = {
+TabMenus.propTypes = {
   children: PropsType.any,
   style: PropsType.object,
 }
 
-TabController.defaultProps = {
+TabMenus.defaultProps = {
   children: [],
   style: {},
 }
 
-export default ConnectedTabController
+export default ConnectedTabMenus

@@ -1,8 +1,5 @@
 
 const colors = {
-  yellow: '#ffb600',
-  green: '#00c3a2',
-  cyan: '#00c8e0',
   purple: '#7467d1',
   shockingPurple: '#8200ff',
   lightPurple: '#9388db',
