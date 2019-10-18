@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { PropTypes } from 'prop-types'
 import SentEmailPopup from './SentEmailPopup'
 import Input from '../../../components/Input'
 import Error from '../../../components/Error'
@@ -157,7 +156,10 @@ const ConnectedResetPassword = props => (
   </Connector>
 )
 
-ResetPassword.propTypes = {}
-ResetPassword.defaultProps = {}
+ResetPassword.propTypes = {
+}
+
+ResetPassword.defaultProps = {
+}
 
 export default ConnectedResetPassword

@@ -7,7 +7,7 @@ import Router from './routes'
 import { authenticate } from './modules/app.module'
 
 class App extends Component {
-  componentWillMount() {
+  componentDidMount() {
     store.dispatch(authenticate())
     loadFontIcons()
   }

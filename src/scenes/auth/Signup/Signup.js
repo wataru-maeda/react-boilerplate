@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-// import { PropTypes } from 'prop-types'
 import Input from '../../../components/Input'
 import { styler, colors } from '../../../theme'
 import { Button } from '../../../components/Button'
